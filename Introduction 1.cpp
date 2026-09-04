@@ -34,9 +34,9 @@ int main (){
 
     cin >> decision;
     if(decision == "Yes"){
-        cout << "Input ur password";
+        cout << "Input ur password\n";
     } else if (decision == "No"){
-        cout << "Okay buddy";
+        cout << "Okay buddy\n";
     }
 
 // pemasukan password
@@ -44,7 +44,7 @@ int main (){
     string password;
 
     do {
-    cout << "Let's make ur password";    
+    cout << "Let's make ur password\n";    
     cin >> password;
 
     isValid = true;
