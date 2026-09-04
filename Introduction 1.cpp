@@ -39,9 +39,24 @@ int main (){
         cout << "Okay buddy";
     }
 
+// pemasukan password
     
+    string password;
 
+    do {
+    cout << "Let's make ur password";    
+    cin >> password;
 
-
+    isValid = true;
+    for(char c : password){
+        if(!isdigit(c)) {
+            isValid = false;
+            break;
+        }
+    }
+        if(!isValid) cout << "Password must be a number bruh\n";
+} while (!isValid);
+    
+    cout << "\nRegistrasi Berhasil bos";
     return 0;
 }
