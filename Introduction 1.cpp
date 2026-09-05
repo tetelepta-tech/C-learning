@@ -9,7 +9,7 @@ int main (){
 
     cout << "Hello world\n";
     cout << "How are u?\n";
-    cout << "What's ur name?\n";
+    cout << "What's ur name?\n\n";
 
     cin >> name;
 
@@ -23,9 +23,9 @@ int main (){
     }
 
     if(isValid){
-        cout << "Welcome to the groub!\n";
+        cout << "Welcome to the groub!\n\n";
     } else {
-        cout << "That's the wrong input bro\n";
+        cout << "That's the wrong input bro\n\n";
     }
 
     cout << "So, do u want to setup a password?\n";
@@ -34,7 +34,7 @@ int main (){
 
     cin >> decision;
     if(decision == "Yes"){
-        cout << "Input ur password\n";
+        cout << "Input ur password\n\n";
     } else if (decision == "No"){
         cout << "Okay buddy\n";
     }
